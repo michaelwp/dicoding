@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1059654117364",
+    "firebase_url": "https://android-test1-93e3e.firebaseio.com",
+    "project_id": "android-test1-93e3e",
+    "storage_bucket": "android-test1-93e3e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1059654117364:android:70da31526857a4c5",
+        "android_client_info": {
+          "package_name": "com.example.footballleague"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1059654117364-k012v8p0iprsmj7erfr4goeukj62ojkj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.footballleague",
+            "certificate_hash": "190a5f09a65f71d6282df4f9715e49551977c383"
+          }
+        },
+        {
+          "client_id": "1059654117364-vukgobfku9sgo2m9gtq5kn0039lvdelm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJBw6XSMPwEeyWxFis9LSoaE9mnno5nEE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1059654117364-vukgobfku9sgo2m9gtq5kn0039lvdelm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

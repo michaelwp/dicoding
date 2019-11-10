@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">FootballLeague</string>
+
+    <string-array name="club_name">
+        <item>English Premier League</item>
+        <item>French Ligue 1</item>
+        <item>German Bundesliga</item>
+        <item>Italian Serie A</item>
+        <item>Spanish La Liga</item>
+        <item>American Mayor League</item>
+        <item>Portugeuese Premiera Liga</item>
+        <item>Australian A League</item>
+        <item>Scotish Premier League</item>
+        <item>English League 1</item>
+    </string-array>
+
+    <array name="club_image">
+        <item>@drawable/english_premier_league</item>
+        <item>@drawable/french_ligue_1</item>
+        <item>@drawable/german_bundesliga</item>
+        <item>@drawable/italian_serie_a</item>
+        <item>@drawable/spanish_la_liga</item>
+        <item>@drawable/american_mayor_league</item>
+        <item>@drawable/portugeuese_premiera_liga</item>
+        <item>@drawable/australian_a_league</item>
+        <item>@drawable/scotish_premier_league</item>
+        <item>@drawable/english_league_1</item>
+    </array>
+</resources>

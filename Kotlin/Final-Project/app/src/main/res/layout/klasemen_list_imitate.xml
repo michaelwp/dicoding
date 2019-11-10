@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="5dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/teamName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:background="@color/cardview_dark_background"
+        android:text="@string/teamname"
+        android:textColor="@color/cardview_dark_background"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/teamPlayed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:background="@color/cardview_dark_background"
+        android:text="@string/_00"
+        android:textColor="@color/cardview_dark_background"
+        app:layout_constraintEnd_toStartOf="@id/teamGoalsFor"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/teamGoalsFor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:background="@color/cardview_dark_background"
+        android:text="@string/_00"
+        android:textColor="@color/cardview_dark_background"
+        app:layout_constraintEnd_toStartOf="@+id/teamGoalsAgainst"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/teamGoalsAgainst"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:background="@color/cardview_dark_background"
+        android:text="@string/_00"
+        android:textColor="@color/cardview_dark_background"
+        app:layout_constraintEnd_toStartOf="@+id/teamGoalsDifference"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/teamGoalsDifference"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:background="@color/cardview_dark_background"
+        android:text="@string/_00"
+        android:textColor="@color/cardview_dark_background"
+        app:layout_constraintEnd_toStartOf="@+id/teamWin"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/teamWin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:background="@color/cardview_dark_background"
+        android:text="@string/_00"
+        android:textColor="@color/cardview_dark_background"
+        app:layout_constraintEnd_toStartOf="@+id/teamDraw"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/teamDraw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:background="@color/cardview_dark_background"
+        android:text="@string/_00"
+        android:textColor="@color/cardview_dark_background"
+        app:layout_constraintEnd_toStartOf="@id/teamLoss"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/teamLoss"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:background="@color/cardview_dark_background"
+        android:text="@string/_00"
+        android:textColor="@color/cardview_dark_background"
+        app:layout_constraintEnd_toStartOf="@+id/teamTotal"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/teamTotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="42dp"
+        android:background="@color/cardview_dark_background"
+        android:text="@string/_00"
+        android:textColor="@color/cardview_dark_background"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
